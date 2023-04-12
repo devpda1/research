@@ -1,0 +1,61 @@
+{
+  "BANCO": [
+    {
+      "title": "Tablas y consultas",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679529921/BANK_-_Tablas_y_consultas_Google_Chrome_2023-03-22_21-02-08_kjuggm.mp4"
+    },
+    {
+      "title": "Login y dashboard",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679529480/BANK_-_Login_-_Dashboard_-Google_Chrome_2023-03-22_20-55-05_qduqca.mp4"
+    },
+    {
+      "title": "Preguntas frecuentes",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679530171/BANK_-_Centro_de_ayuda_-_Google_Chrome_2023-03-22_21-06-40_z2ryhl.mp4"
+    }
+  ],
+  "TRADING": [
+    {
+      "title": "Combo Select",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679572735/Exchange_-_Combo_Select_-_Google_Chrome_2023-03-23_08-57-38_e181qr.mp4"
+    },
+    {
+      "title": "Cambio de color de fondo",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679573604/Exchange___Cambio_de_color_de_fondo_-_Google_Chrome_2023-03-23_09-11-07_lscqwa.mp4"
+    }
+  ],
+  "CLOUDINARY": [
+    {
+      "title": "Menu colapsado",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679580867/Cloudinary_-_Menu_lateral_colapsado_-_Media_Library_-_Google_Chrome_2023-03-23_11-13-08_cvqliv.mp4"
+    }
+  ],
+  "AIRTM": [
+    {
+      "title": "Dashboard",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679583679/Airtm_-_Dashboard_-_Google_Chrome_2023-03-23_11-53-33_bzudyq.mp4"
+    },
+    {
+      "title": "Filtro y busqueda",
+      "video": "https://res.cloudinary.com/dathwi8ps/video/upload/v1679584111/Airtm_-_Filtro_y_busquedas_-_Google_Chrome_2023-03-23_11-57-35_b3j6lg.mp4"
+    }
+
+  ],
+  "SANTANDER": [
+    {
+      "title": "Menu",
+      "video": "https://res.cloudinary.com/dwcegf6nk/video/upload/v1680700900/Santander_neu9e1.mkv"
+    }
+  ],
+  "CODERHOUSE": [
+    {
+      "title": "Navegacion",
+      "video": "https://res.cloudinary.com/dwcegf6nk/video/upload/v1680700890/Coderhouse_tuu99f.mkv"
+    }
+  ],
+  "TESTKOKORO": [
+    {
+      "title": "Alta de usuario",
+      "video": "https://res.cloudinary.com/dwcegf6nk/video/upload/v1680700894/testkokoro_yuajzc.mkv"
+    }
+  ]
+}
