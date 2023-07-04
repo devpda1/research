@@ -10,26 +10,7 @@ import { FrequentQuestion } from './models/frequent-question.model';
 export class AppComponent implements OnInit {
   title = 'explore-app';
   options: any[] = [
-    {
-      alias: 'BANCO',
-      nombre: 'Banco'
-    },
-    {
-      alias: 'TRADING',
-      nombre: 'Trading'
-    },
-    {
-      alias: "CLOUDINARY",
-      nombre: 'Cloudinary'
-    },
-    {
-      alias: "AIRTM",
-      nombre: "Airtm"
-    },
-    {
-      alias: "SANTANDER",
-      nombre: "Santander"
-    }
+    
   ]
   frequentQuestions!: FrequentQuestion[];
   selectedOption:any
@@ -42,6 +23,7 @@ export class AppComponent implements OnInit {
     this.centroAyudaService.getData();
     setTimeout(()=>{
       
+      this.options =  Object.keys(this.centroAyudaService.getAll())
       this.setInitialOptionSelected('BANCO')
 
     }, 500)
@@ -49,18 +31,16 @@ export class AppComponent implements OnInit {
 
   setInitialOptionSelected(alias: string): void {
     this.selectedOption = this.options.find(
-      (option) => option.alias.toUpperCase() === alias.toUpperCase()
+      (option) => option.toUpperCase() === alias.toUpperCase()
     );
-    console.log('selectedOption: ', this.selectedOption)
     this.getFrequentQuestions();
   }
 
   getFrequentQuestions(): void {
-    this.frequentQuestions = this.centroAyudaService.get(this.selectedOption.alias);
+    this.frequentQuestions = this.centroAyudaService.get(this.selectedOption);
   }
 
   onSelect(option: any): void {
-    console.log('option: ', option)
     this.selectedOption = option;
     this.getFrequentQuestions();
   }

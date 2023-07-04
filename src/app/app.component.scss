@@ -2,9 +2,10 @@
     background-color: transparent;
 }
 
-ul li{
+ul li {
     position: relative;
     font-weight: 500;
+    cursor: pointer;
 }
 
 ul li.active {
@@ -12,13 +13,15 @@ ul li.active {
     padding-left: 15px;
     font-weight: bold;
 }
+
 .extrabold {
     font-weight: 800;
 }
+
 .text-black {
     color: black;
 }
 
-.gap-20{
+.gap-20 {
     gap: 20px;
 }

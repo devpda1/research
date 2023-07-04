@@ -13,7 +13,7 @@
                 (click)="onSelect(option)"
                 [class.active]="option === selectedOption"
               >
-                {{ option.nombre }}
+                {{ option | titlecase }}
               </li>
             </ul>
           </div>

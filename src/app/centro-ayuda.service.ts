@@ -39,4 +39,8 @@ export class CentroAyudaService {
   get(key: string): FrequentQuestion[] {
     return this.data[key];
   }
+
+  getAll():any{
+    return this.data;
+  }
 }
