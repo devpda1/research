@@ -25,6 +25,10 @@ export class AppComponent implements OnInit {
     {
       alias: "AIRTM",
       nombre: "Airtm"
+    },
+    {
+      alias: "SANTANDER",
+      nombre: "Santander"
     }
   ]
   frequentQuestions!: FrequentQuestion[];
